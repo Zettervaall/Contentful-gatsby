@@ -1,16 +1,19 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
+
+require("dotenv").config();
+
 module.exports = {
   siteMetadata: {
-    title: `portfolio-contentful-gatsby`,
+    title: "Moas Portfolio",
     siteUrl: `https://www.yourdomain.tld`
   },
   plugins: [{
     resolve: 'gatsby-source-contentful',
     options: {
-      "accessToken": "accessToken",
-      "spaceId": "spaceId"
+      "accessToken": process.env.CONTENTFUL_ACCESS_TOKEN,
+      "spaceId": process.env.CONTENTFUL_SPACE_ID,
     }
   }, "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", "gatsby-plugin-postcss"]
 };

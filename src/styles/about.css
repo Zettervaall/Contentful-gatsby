@@ -1,0 +1,46 @@
+.about-container {
+  padding: 4rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.about-title {
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.about-content {
+  font-size: 1.25rem;
+  line-height: 1.9;
+  color: #555;
+  padding: 3rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 3rem;
+}
+
+.about-skills {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.skill-card {
+  padding: 2rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.skill-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.skill-card p {
+  color: #666;
+  margin: 0;
+}

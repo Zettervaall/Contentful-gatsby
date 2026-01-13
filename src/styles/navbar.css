@@ -1,0 +1,42 @@
+/* Navbar */
+.navbar {
+  background: white;
+  border-bottom: 2px solid #e0e0e0;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo till vänster */
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Links till höger */
+.navbar-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.navbar-link {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #666;
+}
+
+.navbar-link-active {
+  color: #0066cc;
+  font-weight: 600;
+}
