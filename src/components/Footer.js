@@ -17,7 +17,6 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <p>© {new Date().getFullYear()} {nav.siteTitle}</p>
-        <p>Built with Gatsby & Contentful</p>
       </div>
     </footer>
   )

@@ -17,7 +17,6 @@ const HomePage = ({ data }) => {
 
 
       <div className="home-content">
-        <h1 className="home-title">Portfolio</h1>
         
         {homePage.content && (
           <p className="home-text">
@@ -40,7 +39,7 @@ const HomePage = ({ data }) => {
       )}
 
         <Link to="/projects" className="home-cta-button">
-          View My Work →
+          View my work
         </Link>
       </div>
     </div>

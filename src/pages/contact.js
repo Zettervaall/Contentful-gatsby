@@ -43,18 +43,9 @@ const ContactPage = ({ data }) => {
 
       {Object.keys(socials).length > 0 && (
         <div className="contact-socials">
-          <h2>Connect With Me</h2>
+          <h2>Connect with me</h2>
           <div className="contact-socials-links">
-            {socials.github && (
-              <a 
-                href={socials.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-link social-github"
-              >
-                GitHub
-              </a>
-            )}
+          
             {socials.linkedin && (
               <a 
                 href={socials.linkedin}

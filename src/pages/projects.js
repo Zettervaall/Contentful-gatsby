@@ -31,7 +31,7 @@ const ProjectsPage = ({ data }) => {
             >
               <source src={`https:${videoUrl}`} type="video/mp4" />
             </video>
-            <div className="project-video-badge">🎬 Video</div>
+            
           </div>
         ) : image ? (
           <GatsbyImage 
@@ -55,11 +55,10 @@ const ProjectsPage = ({ data }) => {
         <>
     <Navbar />
     <div className="projects-container">
-      <h1 className="projects-title">Portfolio</h1>
 
       <section className="projects-section">
         <h2 className="projects-section-title">
-          Visualizations ({visualizations.length})
+          Visualizations
         </h2>
         <div className="projects-grid">
           {visualizations.map((item) => (
@@ -70,7 +69,7 @@ const ProjectsPage = ({ data }) => {
 
       <section className="projects-section">
         <h2 className="projects-section-title">
-          Frontend Projects ({frontendProjects.length})
+          Frontend
         </h2>
         <div className="projects-grid">
           {frontendProjects.map((item) => (
@@ -81,7 +80,7 @@ const ProjectsPage = ({ data }) => {
 
       <section className="projects-section">
         <h2 className="projects-section-title">
-          VR Projects ({vrProjects.length})
+          VR
         </h2>
         <div className="projects-grid">
           {vrProjects.map((item) => (
