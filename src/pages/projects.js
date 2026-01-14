@@ -92,7 +92,6 @@ const ProjectsPage = ({ data }) => {
         <Footer />
     </>
   )
-  
 }
 
 export const query = graphql`
