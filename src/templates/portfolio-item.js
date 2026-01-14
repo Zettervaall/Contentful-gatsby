@@ -52,7 +52,7 @@ const PortfolioItemTemplate = ({ data }) => {
           <p>{project.description?.description}</p>
         </div>
 
-        {/* Gallery Images - NY SEKTION */}
+        {/* Gallery Images */}
         {project.galleryImages && project.galleryImages.length > 0 && (
           <div className="portfolio-gallery">
             <h2 className="portfolio-gallery-title">Project Gallery</h2>
@@ -78,7 +78,7 @@ const PortfolioItemTemplate = ({ data }) => {
   )
 }
 
-// GraphQL query - Lägg till galleryImages
+// GraphQL query
 export const query = graphql`
   query($slug: String!) {
     contentfulPortfolioItem(slug: {eq: $slug}) {
