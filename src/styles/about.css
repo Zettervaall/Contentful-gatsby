@@ -11,13 +11,25 @@
   text-align: center;
 }
 
+.about-image-wrapper {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.about-image {
+  width: 40%;
+  height: auto;
+  border-radius: 50px;
+}
+
 .about-content {
   font-size: 1.25rem;
   line-height: 1.9;
   color: #555;
   padding: 3rem;
   border-radius: 8px;
-  border: 1px solid #ddd;
   margin-bottom: 3rem;
 }
 
@@ -30,17 +42,18 @@
 
 .skill-card {
   padding: 2rem;
-  border: 2px solid #ddd;
   border-radius: 8px;
   text-align: center;
+  background-color: black;
 }
 
 .skill-card h3 {
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
+  color: white;
 }
 
 .skill-card p {
-  color: #666;
+  color: #e4e4e4;
   margin: 0;
 }

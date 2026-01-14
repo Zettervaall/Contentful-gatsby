@@ -31,7 +31,7 @@ const ProjectsPage = ({ data }) => {
             >
               <source src={`https:${videoUrl}`} type="video/mp4" />
             </video>
-            
+
           </div>
         ) : image ? (
           <GatsbyImage 
@@ -45,7 +45,6 @@ const ProjectsPage = ({ data }) => {
         
         <div className="project-info">
           <h3 className="project-title">{item.title}</h3>
-          <p className="project-link-text">Click to view →</p>
         </div>
       </Link>
     )
@@ -71,10 +70,11 @@ const ProjectsPage = ({ data }) => {
         <h2 className="projects-section-title">
           Frontend
         </h2>
-        <div className="projects-grid">
+        <div className="projects-grid-frontend">
           {frontendProjects.map((item) => (
             <ProjectCard key={item.id} item={item} />
           ))}
+        
         </div>
       </section>
 
@@ -82,7 +82,7 @@ const ProjectsPage = ({ data }) => {
         <h2 className="projects-section-title">
           VR
         </h2>
-        <div className="projects-grid">
+        <div className="projects-grid-vr">
           {vrProjects.map((item) => (
             <ProjectCard key={item.id} item={item} />
           ))}
@@ -111,6 +111,9 @@ export const query = graphql`
           file {
             url
           }
+        }
+           description {
+          description
         }
       }
     }

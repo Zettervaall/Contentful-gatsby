@@ -18,9 +18,7 @@
 }
 
 .contact-email-box {
-  margin-bottom: 3rem;
-  padding: 2rem;
-  border: 2px solid #ddd;
+  margin-bottom: 5rem;
   border-radius: 8px;
 }
 
@@ -32,11 +30,9 @@
 .contact-email-link {
   font-size: 1.3rem;
   font-weight: 600;
+  color: black;
 }
 
-.contact-socials {
-  margin-bottom: 3rem;
-}
 
 .contact-socials h2 {
   font-size: 1.5rem;
@@ -57,10 +53,7 @@
   font-weight: 600;
 }
 
-.social-github {
-  background: #333;
-}
 
 .social-linkedin {
-  background: #0077b5;
+  background: black;
 }

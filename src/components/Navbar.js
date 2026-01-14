@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import "../styles/navbar.css"
+import logo from "../images/Logo.png" 
 
 const Navbar = () => {
   const data = useStaticQuery(graphql`
@@ -19,7 +20,7 @@ const Navbar = () => {
       <div className="navbar-container">
         {/* Logo/Site Title till vänster */}
         <Link to="/" className="navbar-logo">
-          {nav.siteTitle}
+          <img src={logo} alt={nav.siteTitle} className="navbar-logo-image"/>
         </Link>
 
         {/* Navigation Links till höger */}

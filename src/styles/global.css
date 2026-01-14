@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -5,9 +9,8 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  font-weight: 300;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #333;
@@ -15,15 +18,18 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
   color: #333;
 }
 
 a {
+  font-family: 'Inter', sans-serif;
   color: #0066cc;
   text-decoration: none;
 }
 
 p {
+  font-family: 'Inter', sans-serif;
   margin-bottom: 1rem;
 }

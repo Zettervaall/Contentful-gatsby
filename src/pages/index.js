@@ -18,11 +18,7 @@ const HomePage = ({ data }) => {
 
       <div className="home-content">
         
-        {homePage.content && (
-          <p className="home-text">
-            {homePage.content.content}
-          </p>
-        )}
+      
 
               {videoUrl && (
         <div className="home-video-wrapper">
@@ -35,6 +31,7 @@ const HomePage = ({ data }) => {
           >
             <source src={`https:${videoUrl}`} type="video/mp4" />
           </video>
+          <p>Made with Unreal Engine, 3Ds Max, V-Ray and After Effects</p>
         </div>
       )}
 

@@ -9,6 +9,7 @@
   display: inline-block;
   margin-bottom: 2rem;
   font-size: 1.1rem;
+  color: black;
 }
 
 .portfolio-title {
@@ -22,6 +23,7 @@
   border-radius: 20px;
   font-size: 0.9rem;
   margin-bottom: 2rem;
+  background: rgb(234, 234, 234);
 }
 
 .category-visualization {
@@ -41,7 +43,6 @@
 
 .portfolio-media-wrapper {
   margin-bottom: 2rem;
-  border-radius: 8px;
   overflow: hidden;
 }
 
@@ -63,7 +64,6 @@
   margin-bottom: 1rem;
 }
 
-/* Gallery sektion */
 .portfolio-gallery {
   margin-top: 4rem;
 }
@@ -75,13 +75,12 @@
 }
 
 .portfolio-gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  display: flex;
   gap: 1.5rem;
 }
 
 .portfolio-gallery-item {
-  border-radius: 8px;
   overflow: hidden;
-  border: 1px solid #ddd;
+  height: 100%;
+  width: 100%
 }

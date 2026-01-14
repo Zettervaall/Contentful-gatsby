@@ -9,9 +9,8 @@
 
 .home-video-wrapper {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1600px;
   margin-bottom: 3rem;
-  border-radius: 8px;
   overflow: hidden;
 }
 
@@ -19,11 +18,16 @@
   width: 100%;
   height: auto;
   display: block;
+   border-radius: 8px;
+}
+
+.home-video-wrapper p {
+  margin-top: 1rem;
 }
 
 .home-content {
   text-align: center;
-  max-width: 800px;
+  max-width: 1100px;
   padding: 2rem;
 }
 
@@ -34,16 +38,13 @@
 
 .home-text {
   font-size: 1.5rem;
-  color: #666;
   margin-bottom: 3rem;
 }
 
 .home-cta-button {
   display: inline-block;
-  padding: 1.2rem 3rem;
-  background: #0066cc;
-  color: white;
   border-radius: 8px;
   font-size: 1.2rem;
   font-weight: 600;
+  color: black;
 }

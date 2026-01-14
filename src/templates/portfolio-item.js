@@ -22,7 +22,7 @@ const PortfolioItemTemplate = ({ data }) => {
         
         <h1 className="portfolio-title">{project.title}</h1>
 
-        <span className={`portfolio-category-badge category-${project.category.toLowerCase()}`}>
+        <span className={`portfolio-category-badge`}>
           {project.category}
         </span>
         
