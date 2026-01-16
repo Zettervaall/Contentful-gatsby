@@ -93,3 +93,34 @@
   justify-content: center;
   color: #999;
 }
+
+/* MOBIL */
+
+@media (max-width: 768px) {
+  .projects-container {
+    padding: 1rem;
+  }
+
+  .projects-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .projects-section-title {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;  /* En kolumn på mobil */
+    gap: 1.5rem;
+  }
+
+  .project-video-wrapper {
+    height: 200px;  /* Mindre höjd på mobil */
+  }
+
+  .project-media {
+    height: 200px;
+  }
+}

@@ -57,3 +57,48 @@
 .social-linkedin {
   background: black;
 }
+
+
+/* MOBIL */
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 2rem 1rem;
+  }
+
+  .contact-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-text {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+
+  .contact-email-box {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .contact-email-box h2 {
+    font-size: 1.2rem;
+  }
+
+  .contact-email-link {
+    font-size: 1.1rem;
+  }
+
+  .contact-socials h2 {
+    font-size: 1.2rem;
+  }
+
+  .contact-socials-links {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .social-link {
+    width: 100%;
+    padding: 0.8rem;
+  }
+}

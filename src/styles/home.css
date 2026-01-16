@@ -48,3 +48,32 @@
   font-weight: 600;
   color: black;
 }
+
+/* MOBIL */
+@media (max-width: 768px) {
+  .home-container {
+    padding: 1rem;
+  }
+
+  .home-video-wrapper {
+    margin-bottom: 2rem;
+  }
+
+  .home-content {
+    padding: 1rem;
+  }
+
+  .home-title {
+    font-size: 2rem;  /* Mindre rubrik på mobil */
+  }
+
+  .home-text {
+    font-size: 1.1rem;  /* Mindre text på mobil */
+    margin-bottom: 2rem;
+  }
+
+  .home-cta-button {
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+  }
+}

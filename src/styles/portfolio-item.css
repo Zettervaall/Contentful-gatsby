@@ -84,3 +84,45 @@
   height: 100%;
   width: 100%
 }
+
+
+/* MOBIL */
+@media (max-width: 768px) {
+  .portfolio-item-container {
+    padding: 1rem;
+  }
+
+  .portfolio-back-link {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .portfolio-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .portfolio-category-badge {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .portfolio-description {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .portfolio-description h2 {
+    font-size: 1.5rem;
+  }
+
+  .portfolio-gallery-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .portfolio-gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
